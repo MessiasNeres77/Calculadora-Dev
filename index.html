@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+10+Charted&family=Micro+5+Charted&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap"
+        rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="div-result"></h1>
+        <div class="box">
+            <div class="elements">
+                <button onclick="toCallNumber('(')" class="button-one">(</button>
+                <button onclick="toCallNumber(')')" class="class=" button-two">)</button>
+                <button onclick="porcent('%')" class="button-tree">%</button>
+                <button onclick="clean ()" class=" button-delete">Apagar</button>
+                <button onclick="toCallNumber('/')" class="button-division">÷</button>
+                <button onclick="toCallNumber('*')" class="button-multiplication">*</button>
+                <button onclick="toCallNumber('+')" class="button-more">+</button>
+                <button onclick="toCallNumber('-')" class="button-subtraction">-</button>
+                <button onclick="back()" class="eraser"><</button>
+                <button onclick="toCallNumber('.')" class="point">.</button>
+            </div>
+            <div class="display">
+                <button onclick="toCallNumber('0')" class="number-zero">0</button>
+                <button onclick="toCallNumber('1')" class="number-one">1</button>
+                <button onclick="toCallNumber('2')" class="number-two">2</button>
+                <button onclick="toCallNumber('3')" class="number-tree">3</button>
+                <button onclick="toCallNumber('4')" class="number-four">4</button>
+                <button onclick="toCallNumber('5')" class="number-five">5</button>
+                <button onclick="toCallNumber('6')" class="number-six">6</button>
+                <button onclick="toCallNumber('7')" class="number-seven">7</button>
+                <button onclick="toCallNumber('8')" class="number-eight">8</button>
+                <button onclick="toCallNumber('9')" class="number-nine">9</button>
+                <button onclick="calc()" class="calcular">=</button>
+            </div>
+        </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
